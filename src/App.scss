@@ -1,0 +1,96 @@
+.App {
+  min-height: 100vh;
+  height: 100%;
+  width:100%;
+  background-color: #fff;
+  // opacity: 0.6;
+  background-image: radial-gradient(#444cf7, #eef1ff 1.6500000000000001px);
+  background-size: 33px 33px;
+}
+
+.mainlogo {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// .maincard {
+//   // border: 1px solid black;
+// }
+
+.maincardtext{
+  height:auto;
+  max-height: 0;
+  transition: max-height 8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+.maincard:hover .maincardtext {
+  max-height: 300px;
+  transition: max-height 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.maincard:hover .divided {
+  width: 60%;
+  transition: width 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.maincard:hover .divided-green {
+  width: 60%;
+  transition: width 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.maincard:hover .divided-orange {
+  width: 60%;
+  transition: width 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.divided {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+  border-top: 3px solid rgb(66, 38, 190);
+  margin-top: 5px;
+  transition: width 8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.divided-green {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+  border-top: 3px solid rgb(34, 173, 76);
+  margin-top: 5px;
+  transition: width 8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.divided-orange {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+  border-top: 3px solid rgb(233, 142, 24);
+  margin-top: 5px;
+  transition: width 8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.mainshadow {
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 26px 0px rgba(34, 60, 80, 0.2);
+}
+
+.lettertext {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300 ;
+}
+
+.retrospectmain {
+  height: calc(100vh*4);
+}
+
+.retrospectlast {
+  height: calc(100vh - 87px);
+}
+
+.retroshadow{
+  -webkit-box-shadow: 0px 0px 40px -13px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 40px -13px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 40px -13px rgba(34, 60, 80, 0.2);
+}
